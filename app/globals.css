@@ -1,0 +1,138 @@
+@import url("https://fontsapi.zeoseven.com/293/main/result.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f8f5ee;
+  --ink: #2a2a2a;
+  --muted: #6b6b66;
+  --rule: #d9d4c5;
+  --accent: #3f5d4c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --ink: #e8e6e1;
+    --muted: #9a9a93;
+    --rule: #333028;
+    --accent: #a8c4b3;
+  }
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "LXGW WenKai Mono", "LXGW WenKai", ui-serif, serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.prose-article {
+  font-size: 17px;
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
+
+.prose-article p {
+  margin: 1.1em 0;
+  text-indent: 0;
+}
+
+.prose-article p + p {
+  margin-top: 1.1em;
+}
+
+.prose-article h2 {
+  font-size: 1.55rem;
+  margin: 1.6em 0 0.7em;
+  padding-top: 0.9em;
+  border-top: 1px solid var(--rule);
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.prose-article h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 1em;
+}
+
+.prose-article h3 {
+  font-size: 1.02rem;
+  margin: 1.8em 0 0.3em;
+  color: var(--muted);
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.prose-article h3::before {
+  content: "§  ";
+  color: var(--accent);
+  opacity: 0.6;
+}
+
+.prose-article blockquote {
+  margin: 1.4em 0;
+  padding: 0.2em 0 0.2em 1.2em;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+  font-style: normal;
+}
+
+.prose-article a {
+  color: var(--accent);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+
+.prose-article a:hover {
+  border-bottom-color: var(--accent);
+}
+
+.prose-article hr {
+  border: none;
+  text-align: center;
+  margin: 2.2em 0;
+  color: var(--muted);
+}
+
+.prose-article hr::before {
+  content: "·  ·  ·";
+  letter-spacing: 0.4em;
+  font-size: 1rem;
+}
+
+.prose-article code {
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.dropcap::first-letter {
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.9;
+  padding: 0.08em 0.12em 0 0;
+  color: var(--accent);
+}
