@@ -98,7 +98,7 @@ export default function ArticleLayout({
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://sesee.click/posts/${slug}`,
+      "@id": `https://lool.click/posts/${slug}`,
     },
     wordCount: meta?.chars,
     inLanguage: "zh-CN",

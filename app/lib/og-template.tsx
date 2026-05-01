@@ -51,7 +51,7 @@ export function renderOgImage({
           }}
         >
           <span>{SITE_NAME}</span>
-          <span>SESEE.CLICK</span>
+          <span>LOOL.CLICK</span>
         </div>
 
         {/* 中部标题 */}

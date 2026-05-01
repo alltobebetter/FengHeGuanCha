@@ -8,7 +8,8 @@ export type Post = {
 };
 
 export const SITE_NAME = "缝合观察";
-export const SITE_URL = "https://sesee.click";
+export const SITE_URL = "https://lool.click";
+export const SITE_EMAIL = "admin@lool.click";
 export const SITE_DESCRIPTION =
   "一个偶尔写、不定期更新、不追热点、不接广告的个人观点存档。";
 export const AUTHOR = "缝合观察";

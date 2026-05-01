@@ -43,11 +43,11 @@ export default function Submit() {
 
         <p className="my-8 text-center">
           <a
-            href="mailto:admin@sesee.click"
+            href="mailto:admin@lool.click"
             className="inline-flex items-center gap-3 text-xl tracking-widest border-b-2 border-[color:var(--accent)] pb-1 hover:opacity-80 transition-opacity"
           >
             <Mail size={20} strokeWidth={1.5} />
-            admin@sesee.click
+            admin@lool.click
           </a>
         </p>
 
@@ -92,7 +92,7 @@ export default function Submit() {
         </p>
 
         <p>
-          自由阅读、链接、引用（请保留来源链接 <code>sesee.click</code>）；在你的私人笔记、聊天群、读书会里转述讨论。
+          自由阅读、链接、引用（请保留来源链接 <code>lool.click</code>）；在你的私人笔记、聊天群、读书会里转述讨论。
         </p>
 
         <p>
@@ -145,11 +145,11 @@ export default function Submit() {
 
         <p className="text-center my-12">
           <a
-            href="mailto:admin@sesee.click"
+            href="mailto:admin@lool.click"
             className="inline-flex items-center gap-2 text-base tracking-widest border-b border-[color:var(--accent)] pb-1 hover:opacity-80 transition-opacity"
           >
             <Mail size={16} strokeWidth={1.5} />
-            admin@sesee.click
+            admin@lool.click
           </a>
         </p>
 
