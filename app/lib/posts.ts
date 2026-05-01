@@ -25,6 +25,14 @@ export const posts: Post[] = [
     pinned: true,
   },
   {
+    slug: "vibe",
+    title: "看不起 vibe coding 的人，其实没搞懂自己在看不起什么",
+    excerpt:
+      'Vibe coding 被 Karpathy 提出来才一年多，就已经被中文技术圈一群人钉在耻辱柱上："不就是让 AI 写代码嘛，有什么难的。" 这种轻蔑不是技术判断，是身份焦虑——一篇关于手艺人情结、行业鄙视链、和一种正在发生的认知代沟的社会学观察。',
+    date: "2026 · 05 · 01",
+    isoDate: "2026-05-01",
+  },
+  {
     slug: "python",
     title: "都说 Python 慢——其实你只是不会用",
     excerpt:
