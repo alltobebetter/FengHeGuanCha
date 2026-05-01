@@ -25,6 +25,14 @@ export const posts: Post[] = [
     pinned: true,
   },
   {
+    slug: "vibe-deep",
+    title: "vibe coding 没那么简单——一份带签名的反驳名单",
+    excerpt:
+      'Karpathy 造词、Simon Willison 把它升级成 vibe engineering、Kent Beck 改叫 augmented coding、Sundar Pichai 在财报里承认 Google 25% 代码出自 AI、Dario Amodei 预测 6 个月内到 90%——这些不是自媒体吹风，是业内真名实姓的人在说的话。一篇把引用一条条摆出来、证明 vibe coding 是真革新的文章。',
+    date: "2026 · 05 · 01",
+    isoDate: "2026-05-01",
+  },
+  {
     slug: "vibe",
     title: "看不起 vibe coding 的人，其实没搞懂自己在看不起什么",
     excerpt:
